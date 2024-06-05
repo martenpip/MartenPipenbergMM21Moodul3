@@ -1,0 +1,46 @@
+.teammember {
+    transition: transform .2s;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+}
+
+.teammember:hover {
+    transform: scale(1.1);
+}
+
+
+.space-y-4 img:hover {
+    border: 2px solid #FB9C00;
+}
+
+.fixed-size-img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-400x300 {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image-400x150 {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image-200x450 {
+    width: 200px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.image-150x150 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

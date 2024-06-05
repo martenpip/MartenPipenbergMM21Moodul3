@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="min-h-screen bg-[#050307] flex items-center justify-center">
+        <div class="w-full max-w-md p-8 space-y-6 bg-[#252625] rounded-lg shadow-lg">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-[#F7F7F2]">Create an account</h2>
+                <p class="mt-2 text-sm text-[#FB9C00]">Already have an account? <a href="Login.html" class="underline">Sign
+                        in</a></p>
+            </div>
+            <form class="space-y-4">
+                <div>
+                    <label for="email" class="block text-sm font-medium text-[#F7F7F2]">Email</label>
+                    <input id="email" name="email" type="email" required
+                        class="w-full p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-[#F7F7F2]">Password</label>
+                    <input id="password" name="password" type="password" required
+                        class="w-full p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                </div>
+                <div>
+                    <label for="country" class="block text-sm font-medium text-[#F7F7F2]">Country</label>
+                    <input id="country" name="country" type="text" required
+                        class="w-full p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                </div>
+                <div>
+                    <label for="dob" class="block text-sm font-medium text-[#F7F7F2]">Date of Birth</label>
+                    <div class="flex space-x-2">
+                        <input id="dob-year" name="dob-year" type="text" placeholder="Year" required
+                            class="w-1/3 p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                        <input id="dob-month" name="dob-month" type="text" placeholder="Month" required
+                            class="w-1/3 p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                        <input id="dob-day" name="dob-day" type="text" placeholder="Day" required
+                            class="w-1/3 p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                    </div>
+                </div>
+                <div>
+                    <label for="username" class="block text-sm font-medium text-[#F7F7F2]">Username</label>
+                    <input id="username" name="username" type="text" required
+                        class="w-full p-2 mt-1 border border-zinc-300 rounded-md bg-[#050307] text-[#F7F7F2] focus:ring-[#FB9C00] focus:border-[#FB9C00]">
+                </div>
+                <div class="flex items-center">
+                    <input id="subscribe" name="subscribe" type="checkbox"
+                        class="w-4 h-4 text-[#FB9C00] border-zinc-300 rounded focus:ring-[#FB9C00]">
+                    <label for="subscribe" class="ml-2 text-sm text-[#F7F7F2]">Sign up for updates</label>
+                </div>
+                <div>
+                    <button type="submit"
+                        class="w-full p-2 text-white bg-[#FB9C00] rounded-md hover:bg-[#EC1726]">Continue</button>
+                </div>
+            </form>
+            <p class="mt-4 text-xs text-center text-[#F7F7F2]">By signing up, you agree to our <a href="#"
+                    class="underline">Terms of Service</a> and <a href="#" class="underline">Privacy Policy</a>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
